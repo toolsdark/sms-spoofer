@@ -1,0 +1,4 @@
+# Other dependencies
+requests==2.26.0
+# Tkinter (may not be necessary to include explicitly)
+# tkinter is included with Python installations by default
