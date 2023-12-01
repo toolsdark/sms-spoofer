@@ -47,7 +47,7 @@
   1. Clone this repository or download the source code.
 
      ```shell
-     git clone https://github.com/toolsdark/spoof-email.git
+     git clone https://github.com/toolsdark/sms-spoofer.git
      ```
 
   2. Usage: (Use PHP for web-interface)
