@@ -55,7 +55,7 @@
      ```python
      'api_key': self.api_key,
             'sender_id': sender_id
-,
+
             'receiver_id': receiver_id,
             'message': message
      /It is only a format
