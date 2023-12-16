@@ -60,6 +60,10 @@
      /It is only a format
      
      ```
+
+   **SCREENSHOT:**
+   <img href="![newsms](https://github.com/toolsdark/sms-spoofer/assets/148985917/8b12722f-8b77-4922-b17f-307e35cea23e)" height=50>
+
      
   3. **Documentation:**
 
@@ -77,7 +81,7 @@
    
 </div>
 
- **SCREENSHOT:**![newsms](https://github.com/toolsdark/sms-spoofer/assets/148985917/8b12722f-8b77-4922-b17f-307e35cea23e)
+ 
 
  
  
