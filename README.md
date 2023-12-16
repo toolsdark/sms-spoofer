@@ -77,6 +77,10 @@
    
 </div>
 
+ **SCREENSHOT:**![newsms](https://github.com/toolsdark/sms-spoofer/assets/148985917/8b12722f-8b77-4922-b17f-307e35cea23e)
+
+ 
+ 
 
 <p>
   SMS spoofing is a technology which uses the short message service (SMS), available on most mobile phones and personal digital assistants, to set who the message appears to come from by replacing the originating mobile number (Sender ID) with alphanumeric text. Spoofing has both legitimate uses (setting the company name from which the message is being sent, setting your own mobile number, or a product name) and illegitimate uses (such as impersonating another person, company, product). This can also send "mysterious" messages that look like they are from legitimate numbers or contacts. 
