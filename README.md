@@ -1,29 +1,32 @@
+## 🚀 DARKEY - THE SMS SPOOFER
+
+[![Python](https://img.shields.io/badge/Python-3.9-blue?style=for-the-badge&logo=python)](https://www.python.org/)
+[![Commit](https://img.shields.io/badge/Commit-Your%20Changes-green?style=for-the-badge)](https://github.com/LightYagami28/sms-spoofer)
+[![Stars](https://img.shields.io/github/stars/LightYagami28/sms-spoofer?style=for-the-badge)](https://github.com/LightYagami28/sms-spoofer)
+[![Pull Requests](https://img.shields.io/github/issues-pr/LightYagami28/sms-spoofer?style=for-the-badge)](https://github.com/LightYagami28/sms-spoofer/pulls)
+[![Issues](https://img.shields.io/github/issues/LightYagami28/sms-spoofer?style=for-the-badge)](https://github.com/LightYagami28/sms-spoofer/issues)
+
+
 <p align="center">
   <img src="https://www.sangfor.com/sites/default/files/2022-08/spoofing_attack.jpg" alt="Logo" width="150" style="border-radius: 70%;">
 </p>
 
-
-  # DARKEY - THE SMS SPOOFER
-
- *This SMS Spoofer Tool is designed to facilitate sms spoofing, which is the act of forging or faking the sender's id address in an  message. Our tools are typically used for various purposes, some legitimate, but often they are associated with malicious activities, such as phishing, spamming, or cyberattacks.*
-  <br>
-  <hr>
-  
-
-  ## Features
-
-  - **Simplicity:** Send sms with an easy-to-use web interface.
-  - **Supports:** In case of @toolsdark being inactive, you can get a license and login info from our BOT, [@tooldark_bot](https://t.me/tooldark_bot).
-  - **Attachments:** Send files and attachments with your emails.
-  - **Spoofing:** Send sms with various types of sender ID[LLC,OPEN SID, etc].
-
+*Welcome to Darkey - The SMS Spoofer, a powerful tool designed to facilitate SMS spoofing, enabling users to forge or fake the sender's ID address in a message. While such tools have legitimate applications, they are often associated with malicious activities like phishing, spamming, or cyberattacks.*
 
 <hr>
 
+## ✨ Features
 
-  ## [+] Follow Me :
+- **Simplicity:** Send SMS with an intuitive web interface.
+- **Support:** Contact @toolsdark_bot to obtain a license and login info in case @toolsdark is inactive.
+- **Attachments:** Send files and attachments along with your messages.
+- **Spoofing:** Customize sender IDs for SMS, including LLC, OPEN SID, etc.
 
-<div style="text-align: center;">
+<hr>
+
+## [+] Follow Us:
+
+<div align="center">
   <div>
     <a href="https://t.me/tooldark_bot">
       <img src="https://img.shields.io/badge/Chat with Bot-🤖-blue?style=for-the-badge&logo=telegram" alt="Telegram Bot">
@@ -38,61 +41,41 @@
   </div>
 </div>
 
+### 📥 Installation
 
+1. Clone this repository or download the source code.
 
+   ```shell
+   git clone https://github.com/toolsdark/sms-spoofer.git
+   ```
 
+2. Usage: (Use PHP for the web interface)
 
-  ### Installation
+   ```python
+   'api_key': self.api_key,
+          'sender_id': sender_id
 
-  1. Clone this repository or download the source code.
+          'receiver_id': receiver_id,
+          'message': message
+   /It is only a format
+   ```
 
-     ```shell
-     git clone https://github.com/toolsdark/sms-spoofer.git
-     ```
+3. **Documentation:**
 
-  2. Usage: (Use PHP for web-interface)
+   Explore our sending quality for in-depth information on usage, options, and best practices.
 
-     ```python
-     'api_key': self.api_key,
-            'sender_id': sender_id
+## 📝 License
 
-            'receiver_id': receiver_id,
-            'message': message
-     /It is only a format
-     
-     ```
+This project is licensed under the MIT License - see the `spoof-sms/LICENSE` file for details.
 
+## 🚀 Get Started
 
-     
-  3. **Documentation:**
+Get started with SMSSPOOFER today and supercharge your email communications. Visit our Telegram [https://t.me/toolsdark](https://t.me/toolsdark) for more details, including test SMS.
 
-     Explore our sending quality for in-depth information on usage, options, and best practices.
+## 📸 Screenshot
 
-  ## License
-  
-  This project is licensed under the MIT License - see the spoof-sms/LICENSE file for details.
-
-    
-  ## Get Started
-  
-   Get started with SMSSPOOFER today and supercharge your email communications. Visit our Telegram [https://t.me/toolsdark](https://t.me/toolsdark) for more details, including test sms.
-
-   
-</div>
-
- 
-
- 
- 
-   **SCREENSHOT:**
-   ![newsms](https://github.com/toolsdark/sms-spoofer/assets/148985917/911d2313-805f-4363-aef1-6ca2772a570f)
+![newsms](https://github.com/toolsdark/sms-spoofer/assets/148985917/911d2313-805f-4363-aef1-6ca2772a570f)
 
 <p>
-  SMS spoofing is a technology which uses the short message service (SMS), available on most mobile phones and personal digital assistants, to set who the message appears to come from by replacing the originating mobile number (Sender ID) with alphanumeric text. Spoofing has both legitimate uses (setting the company name from which the message is being sent, setting your own mobile number, or a product name) and illegitimate uses (such as impersonating another person, company, product). This can also send "mysterious" messages that look like they are from legitimate numbers or contacts. 
-We have best route for Europe esipcally!</p>    
-
-
-
-
-
-
+  SMS spoofing is a technology that uses the short message service (SMS) available on most mobile phones and personal digital assistants to set who the message appears to come from by replacing the originating mobile number (Sender ID) with alphanumeric text. Spoofing has both legitimate uses (setting the company name from which the message is being sent, setting your own mobile number, or a product name) and illegitimate uses (such as impersonating another person, company, product). This can also send "mysterious" messages that look like they are from legitimate numbers or contacts. We have the best route for Europe especially!
+</p>

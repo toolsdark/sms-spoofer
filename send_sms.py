@@ -1,14 +1,21 @@
 import tkinter as tk
 from tkinter import messagebox
 import requests
+from dotenv import dotenv_values
 
 class SMSSenderApp:
     def __init__(self, root):
         self.root = root
         self.root.title("Darkey - SMS SPOOFER")
 
-        # FOR API KEY CONTACT @TOOLSDARK
-        self.api_key = '@toolsdark'
+        # Load API key from api.env file
+        config = dotenv_values('api.env')
+        self.api_key = config.get('SMS_API_KEY')
+
+        if self.api_key is None:
+            messagebox.showerror("Error", "API key not found in api.env file")
+            root.destroy()
+            return
 
         # GUI components
         self.label_sender = tk.Label(root, text="Sender ID:")
@@ -40,11 +47,12 @@ class SMSSenderApp:
             'message': message
         }
 
-       
-        response = requests.post('https://sms.jagrithacker.com/main.php', data=data)
-
-    
-        messagebox.showinfo("API Response", response.text)
+        try:
+            response = requests.post('https://sms.jagrithacker.com/main.php', data=data)
+            response.raise_for_status()  # Raises an error for bad response codes
+            messagebox.showinfo("API Response", response.text)
+        except requests.exceptions.RequestException as e:
+            messagebox.showerror("Error", f"An error occurred: {e}")
 
 if __name__ == "__main__":
     root = tk.Tk()
